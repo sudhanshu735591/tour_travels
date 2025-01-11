@@ -45,8 +45,8 @@ function Header() {
 
         {showMenu && (
           <ul className="flex flex-col gap-2">
-            <li className="hover:text-gray-500 cursor-pointer">Home</li>
-            <li className="hover:text-gray-500 cursor-pointer">About</li>
+            <li onClick={() => navigate("/")} className="hover:text-gray-500 cursor-pointer">Home</li>
+            <li onClick={() => navigate("/servicesection")} className="hover:text-gray-500 cursor-pointer">About</li>
             <li className="hover:text-gray-500 cursor-pointer">Contact</li>
           </ul>
         )}
