@@ -10,20 +10,16 @@ const ContactPage = () => {
             REGISTERED OFFICE
           </h2>
           <p className="text-gray-600 font-medium mb-2">
-            Jaipur Golden Transport Co. Private Limited
+            Shree Om Express Cargo Private Limited
           </p>
           <p className="text-gray-600 mb-4">
-            4735, Roshanara Road, Delhi - 110 007
+            Shop 17-18, IInd floor, Shyam tower Sikar House Jaipur (Rajasthan)
           </p>
           <p className="text-gray-600 mb-2">
-            <span className="font-bold">Phones:</span> +91-11-23827903 to
-            23827911
+            <span className="font-bold">Phones:</span> +91 9414041310
           </p>
           <p className="text-gray-600 mb-2">
-            <span className="font-bold">Fax:</span> +91-11-23821816
-          </p>
-          <p className="text-gray-600 mb-2">
-            <span className="font-bold">Toll-free:</span> 1800-1800-777
+            <span className="font-bold">GST IN:</span> 08ANWPS2214D2ZT
           </p>
           <p className="text-gray-600 mb-2">
             <span className="font-bold">E-Mail:</span>{" "}
@@ -35,7 +31,7 @@ const ContactPage = () => {
               href="http://www.jaipurgolden.in"
               className="text-blue-500 hover:underline"
             >
-              www.jaipurgolden.in
+              www.shreeomexpresscargo.in
             </a>
           </p>
         </div>
