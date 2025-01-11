@@ -13,7 +13,7 @@ function Header() {
         onClick={() => navigate("/")}
         className="flex items-center h-10 px-10 bg-gradient-to-r from-gray-900 via-gray-600 to-gray-500 rounded-tl-full rounded-br-full font-bold uppercase italic text-white hover:opacity-90 cursor-pointer"
       >
-        Title
+        Shree Om Express Cargo
       </div>
 
       <nav className="hidden sm:flex justify-between items-center gap-20 font-semibold">
