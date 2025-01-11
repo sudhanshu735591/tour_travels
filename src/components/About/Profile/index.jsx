@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-
 const VisionAndMission = () => {
   const [text, setText] = useState("Company Profile");
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
   return (
     <div className="flex flex-col sm:flex-row bg-gray-100">
       {/* Sidebar */}
@@ -63,7 +61,6 @@ const VisionAndMission = () => {
           </li>
         </ul>
       </aside>
-
       {/* Dropdown Button for Small Screens */}
       <button
         className="sm:hidden bg-yellow-500 text-white px-4 py-2 m-4 rounded-md self-start"
@@ -71,7 +68,6 @@ const VisionAndMission = () => {
       >
         {isSidebarOpen ? "Close Menu" : `${text}`}
       </button>
-
       {/* Main Content */}
       <main className="flex-1 p-8 bg-white">
         <div>
@@ -226,5 +222,4 @@ const VisionAndMission = () => {
     </div>
   );
 };
-
 export default VisionAndMission;
