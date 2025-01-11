@@ -1,7 +1,7 @@
 function Footer() {
     return (
       <div className="">
-        <div className="flex p-10 gap-20 justify-around text-start mt-10 bg-[rgb(236,234,234)]">
+        <div className="flex p-10 gap-20 justify-around text-start bg-[rgb(236,234,234)]">
           <div className="mt-20 flex flex-col gap-5">
             <h2 className="text-2xl">Quick links</h2>
             <div>
