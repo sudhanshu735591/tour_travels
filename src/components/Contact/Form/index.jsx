@@ -23,7 +23,7 @@ const ContactPage = () => {
           </p>
           <p className="text-gray-600 mb-2">
             <span className="font-bold">E-Mail:</span>{" "}
-            customercare@jaipurgolden.in
+            business@soecargo.com
           </p>
           <p className="text-gray-600">
             <span className="font-bold">Website:</span>{" "}
@@ -31,7 +31,7 @@ const ContactPage = () => {
               href="http://www.jaipurgolden.in"
               className="text-blue-500 hover:underline"
             >
-              www.shreeomexpresscargo.in
+              www.soecargo.com
             </a>
           </p>
         </div>
